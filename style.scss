@@ -1,0 +1,64 @@
+header{
+    min-height: 5vh;
+    background-color: #7749F8;
+    nav{
+        margin-left: 5rem;
+        padding: 0.5rem;
+    }
+}
+main{
+    font-family: 'Inter', sans-serif;
+    margin: 0 5rem;
+    input{
+        padding: 0.5rem;
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 5px;
+        width: 500px;
+        &:focus{
+            outline: transparent;
+        }
+        &::placeholder{
+            color: gray;
+        }
+    }
+    h1{
+        font-size: 3rem;
+        margin: 5rem 0;
+    }
+    h2{
+        margin: 3rem 0;
+    }
+    p{
+        color: gray;
+    }
+}
+
+.btn{
+    border: 2px solid #7749F8;
+    background: transparent;
+    color: #7749F8;
+    &:hover{
+        background: #7749F8;
+    color: White;
+    }
+}
+
+#hrk{
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(204, 204, 204);
+    padding: 0.5rem;
+    margin-right: -5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#x{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    &:focus{
+        outline: transparent;
+    }
+}
+#valuta{
+    margin-bottom: 5rem;
+}

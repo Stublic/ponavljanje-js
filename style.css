@@ -1,0 +1,88 @@
+header {
+  min-height: 5vh;
+  background-color: #7749F8;
+}
+
+header nav {
+  margin-left: 5rem;
+  padding: 0.5rem;
+}
+
+main {
+  font-family: 'Inter', sans-serif;
+  margin: 0 5rem;
+}
+
+main input {
+  padding: 0.5rem;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  width: 500px;
+}
+
+main input:focus {
+  outline: transparent;
+}
+
+main input::-webkit-input-placeholder {
+  color: gray;
+}
+
+main input:-ms-input-placeholder {
+  color: gray;
+}
+
+main input::-ms-input-placeholder {
+  color: gray;
+}
+
+main input::placeholder {
+  color: gray;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin: 5rem 0;
+}
+
+main h2 {
+  margin: 3rem 0;
+}
+
+main p {
+  color: gray;
+}
+
+.btn {
+  border: 2px solid #7749F8;
+  background: transparent;
+  color: #7749F8;
+}
+
+.btn:hover {
+  background: #7749F8;
+  color: White;
+}
+
+#hrk {
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
+  padding: 0.5rem;
+  margin-right: -5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#x {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#x:focus {
+  outline: transparent;
+}
+
+#valuta {
+  margin-bottom: 5rem;
+}
+/*# sourceMappingURL=style.css.map */
